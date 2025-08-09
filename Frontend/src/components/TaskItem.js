@@ -196,21 +196,24 @@ const TaskItem = ({ task, onTaskUpdate, onTaskDelete, loading }) => {
               }`}
               disabled={loading}
             >
-              {task.status === 'Pending' ? 'Mark Complete' : 'Mark Pending'}
+              <i className={`fas ${task.status === 'Pending' ? 'fa-check' : 'fa-undo'}`} style={{ marginLeft: '6px' }}></i>
+              {task.status === 'Pending' ? 'הושלם' : 'חזור לממתין'}
             </button>
             <button
               onClick={() => setIsEditing(true)}
               className="btn btn-primary btn-sm"
               disabled={loading}
             >
-              Edit
+              <i className="fas fa-edit" style={{ marginLeft: '6px' }}></i>
+              ערוך
             </button>
             <button
               onClick={handleDelete}
               className="btn btn-danger btn-sm"
               disabled={loading}
             >
-              Delete
+              <i className="fas fa-trash" style={{ marginLeft: '6px' }}></i>
+              מחק
             </button>
           </div>
         </>

@@ -74,7 +74,10 @@ const TaskForm = ({ onTaskCreate, loading }) => {
   return (
     <div className="card">
       <div className="card-header">
-        <h2 className="card-title">Add New Task</h2>
+        <h2 className="card-title">
+          <i className="fas fa-plus-circle" style={{ marginLeft: '12px', color: '#3b82f6' }}></i>
+          הוסף משימה חדשה
+        </h2>
       </div>
       
       <form onSubmit={handleSubmit}>
@@ -128,11 +131,14 @@ const TaskForm = ({ onTaskCreate, loading }) => {
         >
           {loading ? (
             <>
-              <span className="loading-spinner"></span>
-              Creating...
+              <i className="fas fa-spinner fa-spin" style={{ marginLeft: '8px' }}></i>
+              יוצר משימה...
             </>
           ) : (
-            'Add Task'
+            <>
+              <i className="fas fa-plus" style={{ marginLeft: '8px' }}></i>
+              הוסף משימה
+            </>
           )}
         </button>
       </form>

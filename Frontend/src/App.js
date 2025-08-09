@@ -119,7 +119,7 @@ function App() {
         <div className="container">
           <h1 className="app-title">
             TaskFlow
-            <span className="app-subtitle">Simple Task Manager</span>
+            <span className="app-subtitle">מנהל משימות פשוט ויעיל</span>
           </h1>
           <div className="connection-status">
             <span className={`status-indicator status-${connectionStatus}`}>
@@ -156,7 +156,7 @@ function App() {
 
       <footer className="app-footer">
         <div className="container">
-          <p>&copy; 2024 TaskFlow - Simple Task Manager App</p>
+          <p>&copy; 2024 TaskFlow - מנהל משימות פשוט ויעיל</p>
         </div>
       </footer>
     </div>

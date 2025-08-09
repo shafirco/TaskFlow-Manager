@@ -1,24 +1,27 @@
-# TaskFlow – Simple Task Manager App
+# 📋 TaskFlow – מנהל משימות פשוט ויעיל
 
-A fullstack web application for managing tasks with a clean, responsive interface. Built with React (frontend), Node.js + Express (backend), and MongoDB (database).
+אפליקציית web מלאה לניהול משימות עם ממשק נקי ורספונסיבי. בנויה עם React (צד לקוח), Node.js + Express (שרת), ו-MongoDB (מסד נתונים).
 
 ![TaskFlow App](https://img.shields.io/badge/TaskFlow-Task%20Manager-blue?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-18.2.0-blue?style=flat-square&logo=react)
 ![Node.js](https://img.shields.io/badge/Node.js-Express-green?style=flat-square&logo=node.js)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?style=flat-square&logo=mongodb)
+![Hebrew](https://img.shields.io/badge/Language-עברית-success?style=flat-square)
 
-## 🚀 Features
+## 🚀 תכונות
 
-- ✅ Create tasks with title, description, and status
-- 📋 View all tasks in a responsive list
-- 🔄 Update task status (Pending/Completed)
-- ✏️ Edit task details inline
-- 🗑️ Delete tasks with confirmation
-- 🔍 Filter tasks by status (All, Pending, Completed)
-- 📊 Sort tasks by date, title, or status
-- 📱 Fully responsive design
-- ⚡ Real-time error handling and validation
-- 🧪 Comprehensive test coverage
+- ✅ יצירת משימות עם כותרת, תיאור וסטטוס
+- 📋 צפייה בכל המשימות ברשימה רספונסיבית
+- 🔄 עדכון סטטוס משימה (ממתין/הושלם)
+- ✏️ עריכת פרטי משימה באופן ישיר
+- 🗑️ מחיקת משימות עם אישור
+- 🔍 סינון משימות לפי סטטוס (הכל, ממתין, הושלם)
+- 📊 מיון משימות לפי תאריך, כותרת או סטטוס
+- 📱 עיצוב רספונסיבי מלא
+- ⚡ טיפול בשגיאות ואימות בזמן אמת
+- 🧪 כיסוי בדיקות מקיף
+- 🎨 עיצוב מודרני עם Glass Morphism
+- 🌐 תמיכה מלאה בעברית
 
 ## 🛠️ Technologies
 
