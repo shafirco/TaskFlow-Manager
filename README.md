@@ -300,6 +300,6 @@ If you have any questions or need help with setup, please:
 
 ---
 
-**Built with ❤️ by [Your Name]**
+**Built with ❤️ by Shafir Cohen**
 
 *Happy task managing! 📋✨*
